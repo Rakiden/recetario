@@ -1,0 +1,2 @@
+# recetario
+proyecto recetario ionic
