@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list style="margin-top: 30px; margin-bottom: 30px;">
+    <ion-item>
+      <ion-label>Nombre de Usuario</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>{{username}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Email</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>{{email}}</ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" padding color="tertiary" (click)="logout()">Cerrar Sesion</ion-button>
+</ion-content>

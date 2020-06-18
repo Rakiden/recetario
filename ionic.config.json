@@ -1,0 +1,8 @@
+{
+  "name": "recetario",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
